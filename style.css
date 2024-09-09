@@ -1,0 +1,293 @@
+*{
+    background-color: black;
+    color:whitesmoke;
+   
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    box-sizing:border-box ;
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.078);
+    border-radius: 10px;
+    height: 50px;
+    padding: 10px;  
+    position: sticky;
+   
+    z-index: 1000;
+}
+ul li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.078) ;
+    font-size: 20px;
+    border-radius: 2px solid black;
+  
+}
+
+/* NOW STyLING THE HOME SECTION */
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+}
+.about{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+  
+}
+.info{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     overflow-y: hidden;
+    position: relative;
+    left: 80px;
+}
+.Personalimage{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    
+}
+.img{
+    width: 50%;
+    height: 80%;
+    border-radius: 100%;
+    /* box-shadow: 8px 8px 5px  rgb(89, 3, 73) ; */
+   
+
+}
+.info h1{
+    font-size: 30px;
+    
+}
+.info h2{
+    font-size: 44px;
+}
+.info p{
+    font-size: 20px;
+}
+button{
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+
+
+/* Now giving css to the About Section */
+#About{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid grey; */
+    border-radius:10px;
+}
+#About h1{
+    font-size: 44px;
+}
+.aboutme{
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.about1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.about2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.aboutme h3{
+    width: 40%;
+    /* background-color: rgba(128, 128, 128, 0.121); */
+    padding:4px;
+    border-radius: 5px ;
+    /* box-shadow: 2px 2px 2px whitesmoke; */
+}
+.aboutme h3 a{
+     text-decoration: none;
+     background-color: inherit;
+     
+
+}
+/* Skills section css */
+#Skills{
+    margin-top: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* border: 2px solid grey; */
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+}
+.cardholder{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-evenly;
+    width: 100%;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    
+}
+.circularbar{
+   width: 90px;
+   height: 90px;
+   border: 5px solid grey;
+   border-top: 5px solid  yellow;
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+/* Projects */
+    #Project{
+        margin-top: 10px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .projectheading{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .projectsection{
+        display: flex;
+        flex-wrap: wrap;
+      
+        width: 100%;
+        height:100%;
+        gap:10px;
+        /* background-color:; */
+    
+        font-size: 25px;
+        justify-content: center;
+       
+    }
+
+     .project{
+        background-color: rgba(128, 128, 128, 0.367)(128, 128, 128, 0.033);
+    
+        border-radius: 20px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid grey;
+        padding: 10px;
+     }
+     .project:hover{
+        opacity:0.8;
+     }
+     .more{
+        font-size: 20px;
+       
+     }
+     button{
+        background-color:rgba(0, 128, 0, 0.408);
+        color: whitesmoke;
+        padding: 10px;
+     }
+     button:hover{
+        background-color: rgb(85, 85, 189);
+     }
+    
+   
+
+/* NOW giving Css to the Social media */
+ #SocialMedia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+ }
+ #SocialMedia h1{
+    font-size: 30px;
+ }
+ .card{
+    width: 20%;
+    /* min-height:200px; */
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 70px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(128, 128, 128, 0.514);
+ }
+ .handles{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+ }
+ .webimages{
+    width: 100%;
+    height: 50%;
+    border-radius: 10%;
+ }
+ .card:hover{
+    background-color:rgba(128, 128, 128, 0.053);
+ }
+ .card a{
+    background-color: inherit;
+    /* padding: 10px; */
+    font-size: 30px;
+    color: green;
+ }
+
+ p{
+   color: rgba(245, 245, 245, 0.292);
+   font-style: italic;
+ }
